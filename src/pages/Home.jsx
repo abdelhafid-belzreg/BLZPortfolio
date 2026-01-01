@@ -25,11 +25,9 @@ export const Home = () => {
 				<AboutSection />
 				<SkillsSection />
 				<ProjectSection />
-        <ContactSection />
+				<ContactSection />
 			</main>
-
-			{/* Footer*/}
-      <Footer />
+			<Footer />
 		</div>
 	);
 };
