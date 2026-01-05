@@ -38,7 +38,7 @@ const generateMeteors =()=>{
         id:i,
         size: Math.random() * 2 + 1 ,
         x:Math.random() * 100 ,
-        y:Math.random() * 15 ,
+        y:Math.random() * 5 ,
         delay :Math.random() * 15 ,
         animationDuration : Math.random() * 3 + 3
       })
@@ -62,8 +62,8 @@ const generateMeteors =()=>{
 
      {meteors.map((meteor)=>(
       <div key={meteor.id} className="meteor animate-meteor " style={{ 
-        width: meteor.size *50 +"px",
-        height: meteor.size *2 +"px",
+        width: meteor.size *100 +"px",
+        height: meteor.size *1 +"px",
         left: meteor.x+"%",
         top: meteor.y +"%",
         delay: meteor.delay,
